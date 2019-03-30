@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.benxiang.getsystemlog.MainActivity">
+
+    <Button
+        android:id="@+id/btn_get_verbose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="获取完整Log" />
+
+    <Button
+        android:id="@+id/btn_get_debug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="获取debug及以上Log" />
+
+    <Button
+        android:id="@+id/btn_get_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="获取info及以上Log" />
+
+    <Button
+        android:id="@+id/btn_get_warn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="获取warn及以上Log" />
+
+    <Button
+        android:id="@+id/btn_get_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="获取error及以上Log" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewClicked"
+        android:text="停止获取" />
+
+</LinearLayout>
